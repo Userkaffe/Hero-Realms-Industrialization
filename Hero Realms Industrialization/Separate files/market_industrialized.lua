@@ -6,10 +6,6 @@ require 'hardai'
 require 'mediumai'
 require 'easyai'
 
-mergeFile userkaffes_utility_functions.lua
-mergeFile spec_utility_functions.lua
-mergeFile carddefs.lua
-mergeFile override_defs.lua
 
 function setupGame(g)
 	registerCards(g, registerList)
